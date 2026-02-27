@@ -2,16 +2,17 @@
 
 ## Setup Instructions
 
-1. Create virtual environment:
+1.Open an terminal and run "git clone then https://github.com/amank2304/Zippy_assignment-.git" or simply download the repo and follow the rest steps.
+2. Create virtual environment:
    python -m venv venv
    source venv/Scripts/activate (Windows)
-2. Install requirements:
+3. Install requirements:
    pip install -r requirements.txt
-3. Run migrations:
+4. Run migrations:
    python manage.py migrate
-4. Create superuser (To create Admin role):
+5. Create superuser (To create Admin role):
    python manage.py createsuperuser
-5. Run server:
+6. Run server:
    python manage.py runserver
 
 ## API Documentation
