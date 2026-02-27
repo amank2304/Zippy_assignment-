@@ -2,7 +2,9 @@
 
 ## Setup Instructions
 
-1. Create virtual environment
+1. Create virtual environment:
+   python -m venv venv
+   source venv/Scripts/activate (Windows)
 2. Install requirements:
    pip install -r requirements.txt
 3. Run migrations:
